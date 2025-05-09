@@ -1,0 +1,166 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #001F54;
+  color: #fff;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  height: 60px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  color: #1E90FF;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #001F54;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  color: #1E90FF;
+  border-bottom: 2px solid #1E90FF;
+}
+
+#home {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+#home img {
+  max-width: 250px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+
+section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #1E90FF;
+  margin: 40px auto;
+  width: 60%;
+}
+
+.projects-wrapper {
+  display: flex;
+  gap: 20px; /* Fogaanta u dhexeeya cards-ka */
+  justify-content: center; /* Si ay u dhexe noqdaan */
+  padding: 20px;
+  flex-wrap: wrap; /* Haddii screen-ku yaryahay, ha jabaan halkii ay buuxin lahaayeen */
+}
+
+.project {
+  max-width: 300px;
+  max-height: 400px;
+  width: 100%;
+  height: 80%;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #001F54;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+#projects img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+#contact img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+#contact a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+#contact a:hover {
+  color: #1E90FF;
+}
+
+button {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.75rem 1.5rem;
+  background-color: #1E90FF;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #0d6efd;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #001F54;
+  background-color: #1E90FF;
+  border-top: 1px solid #ddd;
+}
